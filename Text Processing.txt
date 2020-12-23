@@ -1,0 +1,21 @@
+Text Preprocessing
+
+Pada tahap text preprocessing, dataset diolah kedalam 4 tahapan yaitu casefolding, tokenization, filtering dan stemming. Kita ambil salah satu contoh kalimat yang akan di olah dalam proses preprocessing.
+
+    “kontenku juga edukasi dengan animasi, walaupun masih sangat pemula… silahkan mampir bila berkenan, terima saran dan kritikan :)”
+
+Case Folding
+
+    kontenku juga edukasi dengan animasi walaupun masih sangat pemula silahkan mampir bila berkenan terima saran dan kritikan
+
+Tokenization
+
+    kontenku|juga|edukasi|dengan|animasi|walaupun|masih|sangat|pemula|silahkan|mampir|bila|berkenan|terima|saran|dan|kritikan
+
+Filtering
+
+    kontenku edukasi animasi pemula silahkan mampir berkenan terima saran kritikan
+
+Stemming
+
+    konten edukasi animasi mula silah mampir kenan terima saran kritik
